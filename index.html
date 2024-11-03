@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .header {
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px; /* Adjust width as needed */
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: #262626;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px;
+        }
+        .nav-links a:hover {
+            color: #0095f6;
+        }
+        .main-content {
+            display: flex;
+            margin: 20px;
+        }
+        .feed {
+            flex: 2;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #dbdbdb;
+            margin-right: 20px;
+        }
+        .post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #dbdbdb;
+            padding-bottom: 10px;
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .post-header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .post-info {
+            margin-top: 10px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #dbdbdb;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo"><h1>Instagram</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Messages</a>
+            <a href="#">Profile</a>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="feed">
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://i.pinimg.com/originals/88/c2/61/88c2619ae58a545ff6b5a3cc26b92d69.jpg" alt="User logo 1">
+                    
+                </div>-
+                <img src="https://s-media-cache-ak0.pinimg.com/564x/bf/00/d4/bf00d4b5dbaf5d4e49a56a29cd70433e.jpg" alt="Post image 1">
+                <div class="post-info">
+                    <p> Had a great day exploring the city!</p>
+                    <p>100 likes</p>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://i.pinimg.com/originals/34/f1/e2/34f1e210520f23400c4e1aca480e506a.jpg" alt="User logo 2">
+                
+                </div>
+                <img src="https://1.bp.blogspot.com/-oDjhHh0KIrY/XsD1R7jOLfI/AAAAAAAATVI/pjHF3Y0BsNMfzXr0MogZkjXwvpDxa7-tQCK4BGAsYHg/d/things%2Bto%2Bpost%2Bon%2Binstagram%2Bstories%2Bduring%2Blockdown.%2B.png" alt="Post image 2">
+                <div class="post-info">
+                    <p><strong>User456</strong> Amazing sunset by the beach. 🌅</p>
+                    <p>200 likes</p>
+                </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.2czZNtgg6BwXuv4yt0eQuQHaE8&pid=Api&P=0&h=180" alt="User logo 3">
+                    
+                </div>
+                <img src="https://english.varthabharati.in/storage/uploads/entertainment/Vijay_vb_14.jpeg" alt="Post image 3">
+                <div class="post-info">
+                    <p> Delicious homemade meal. 🍲</p>
+                    <p>150 likes</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Suggestions for you</h3>
+           
+        </div>
+    </div>
+</body>
+</html>
